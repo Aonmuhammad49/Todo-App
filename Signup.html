@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+     <div class="box">
+       <h1>Join us today!</h1> 
+       <p>Sign up now to become a member</p>
+       <br><br>
+       <input type="text" placeholder="Enter Name" class="input" id="Name">
+       <br><br>
+       <input type="email" placeholder="Enter A Email" class="input" id="Email">
+       <br><br>
+       <input type="password" placeholder="Choose A Password" class="input" id="password">
+       <br><br>
+       <input type="file" name="" id="IMAGEUPLOAD" class="file-class">
+       <br><br>
+       <button class="button" id="Signup">Signup</button>
+       <br><br>
+       <p class="p">Already a member?</p><a href="#" onclick="window.location.replace('Login.html')">Login Here</a>
+     <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app-compat.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-auth-compat.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-database-compat.js"></script>
+     <script>
+              const firebaseConfig = {
+                              apiKey: "AIzaSyAc8DhKitktBApZvh1-RfWgyDOAqvHSe38",
+                              authDomain: "app-484dd.firebaseapp.com",
+                              projectId: "app-484dd",
+                              storageBucket: "app-484dd.firebasestorage.app",
+                              messagingSenderId: "646323011630",
+                              appId: "1:646323011630:web:d0b618562004698454dfbf",
+                              databaseURL: "https://app-484dd-default-rtdb.firebaseio.com"
+  };
+  
+    firebase.initializeApp(firebaseConfig)
+     </script>
+     </div>
+    </div>
+     <script src="Signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+     <div id="Loading" class="Loading">
+         <img src="https://media.tenor.com/AN1ll0-4gZMAAAAC/loading.gif" alt="">
+     </div>
+     <div class="maindiv" id="After" style="display: none;">
+            <div class="Name-email">
+            <div class="Heading">
+                <h3 id="Name"></h3>
+                <h4 id="email"></h4>
+            </div>
+            <div class="Image-Circle">
+                <img src="" class="image" alt="" id="image">
+            </div>
+            </div>            
+            <div class="Todo-box">
+                <h1>Welcome In My Todo App</h1>
+                <div class="Todo-App-Setup">
+                    <input type="text" id="input" class="input">
+                    <button class="button" id="Click">Add</button>
+                    <button class="button1" id="deleteclick">Delete</button>
+                    <button class="button2" id="updateclick" style="display: none;">Update</button>
+                    <br>
+                    <input type="checkbox"  id="checkbox" class="checkbox">
+                    <br><br>
+                    <div id="Button-Click">
+                    </div>
+                    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app-compat.js"></script>
+                    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-auth-compat.js"></script>
+                    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-database-compat.js"></script>
+                    <script>
+                        const firebaseConfig = {
+                              apiKey: "AIzaSyAc8DhKitktBApZvh1-RfWgyDOAqvHSe38",
+                              authDomain: "app-484dd.firebaseapp.com",
+                              projectId: "app-484dd",
+                              storageBucket: "app-484dd.firebasestorage.app",
+                              messagingSenderId: "646323011630",
+                              appId: "1:646323011630:web:d0b618562004698454dfbf",
+                              databaseURL: "https://app-484dd-default-rtdb.firebaseio.com"
+  };
+   firebase.initializeApp(firebaseConfig)
+                    </script>
+                </div>
+            </div>
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>

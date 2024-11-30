@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+                width: 225vh;
+                height: 100vh;
+                background-color: rgb(64, 64, 155);
+}
+.box{
+     width: 70vh;
+     height: 65vh;
+     display: inline-block;
+     background-color: white;
+     margin: 7.5% 34%;
+     border-radius: 5px;
+}
+h1{
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 35px;
+}
+p{
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+}
+input{
+     margin: 0px 75px;
+     width: 44vh;
+     height: 5vh;
+     padding: 2px;
+}
+.Submit{
+        width: 44.5vh;
+        height: 5.5vh;
+        margin: 0px 75px;
+        background-color: rgb(64, 64, 155);
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        color: white;
+}
+.p{
+    display: inline-block;
+    margin: 0px 23%;
+    font-size: 18px;
+    color: gray;
+}
+a{
+    display: inline-block;
+    text-align: center;
+    margin: 0px -22%;
+    font-size: 20px;
+    text-decoration: none;
+}

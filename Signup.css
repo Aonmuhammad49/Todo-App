@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+                width: 225vh;
+                background-color: rgb(64, 64, 155);
+                height: 100vh;
+}
+.box{
+     display: inline-block;
+     background-color: white;
+     height: 75vh;
+     width: 65vh;
+     margin: 5.5% 35.5%;
+     border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 35px;
+    font-family: Arial;
+}
+p{
+    font-size: 18px;
+    font-family: Arial;
+    color: grey;
+    text-align: center;
+}
+.input{
+     margin: 0px 45px;
+     width: 300px;
+     height: 33px;
+}
+.file-class{
+    margin: 0px 45px;
+}
+.button{
+        margin: 0px 43px;
+        width: 305px;
+        height: 40px;
+        background-color: rgb(64, 64, 155);
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+}
+.p{
+    display: inline-block;
+    margin: 0px 70px;
+}
+a{
+    display: inline-block;
+    margin: 0px -70px;
+    text-decoration: none; 
+}
